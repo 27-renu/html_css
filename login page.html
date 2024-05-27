@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+           box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+           background-color:cornflowerblue;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+           height: 100vh;
+        }
+        .form{
+           background-color: aliceblue;
+            width: 350px;
+            height: 300px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+       
+        }
+        .field{
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            margin:5px 0;
+            width: 100%;
+        font-size: 20px;
+        }
+       .field input{
+            width: 100%;
+            border: 2px solid black;
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .field button{
+            padding:5px;
+            border: 1px solid black;
+            font-size: 20px;
+            margin-top: 10px;
+            background-color: cornflowerblue;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+        input:focus{
+            border-color: cornflowerblue;
+        }
+        button:hover{
+            opacity: 1 ;
+        }
+
+    </style>
+</head>
+<body>
+    
+  <div class="form">
+    <div class="img">
+   <img src="https://logodix.com/logo/1713924.png">
+    </div>
+    <div class="field">
+        <label>Email</label>
+        <input type="text" placeholder="xyz@gmail.com">
+    </div>
+  <div class="field"> 
+        <label>Password</label>
+        <input type="password" placeholder="*********" > 
+        </div>
+    <div class="field"> 
+        <button>login</button>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
